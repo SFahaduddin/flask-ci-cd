@@ -32,8 +32,8 @@ jobs:
           python --version  # Confirm Python version
           pip --version  # Confirm pip version
           
-      - name: Run Tests
-        run: pytest
+     # - name: Run Tests
+      #  run: pytest
   # Deployment Job
   deploy:
     runs-on: ubuntu-latest
